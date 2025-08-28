@@ -1,0 +1,70 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(https://img.freepik.com/vector-premium/fondo-vintage-dibujado-mano-comida-rapida_124507-1321.jpg);
+    
+}
+h1{
+    text-align: center;
+    font-size: 3em;
+    background-color: aquamarine;
+    margin: auto;
+    height: 50px;
+}
+.list-group, .home{
+    display: flex;
+    justify-content: end;
+    background-color: aquamarine ;
+    margin-top: 0;
+   
+    padding-bottom: 15px;
+    
+
+}
+li{
+   
+    margin: auto 15px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+a:hover{
+   
+    border-radius: 3px;
+    color: blueviolet;
+}
+.home{
+    display: flex;
+    float: right;
+    background-color: aquamarine;
+    margin-top: -45px;
+}
+.title-recipes{
+    padding-bottom: 25px;
+    height: 50px;
+    
+}
+img{
+    
+    max-width: 300px;
+    max-height: 300px;
+    border: 2px solid black;
+    margin-top: 40px ;
+    margin-left: 500px;
+}
+p{
+    padding: 5px;
+    border-radius:3px;
+    background-color: aliceblue;
+    margin: 0;
+}
+h2{
+    text-align: center;
+    font-weight: bold;
+}
+
+ol, ul{
+    background-color: aliceblue;
+    border-radius: 3px;
+}
